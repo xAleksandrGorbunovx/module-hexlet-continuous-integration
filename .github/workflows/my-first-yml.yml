@@ -1,0 +1,20 @@
+name: My first yml
+on: push
+jobs:
+  build: # имя взято для примера
+    runs-on: ubuntu-latest
+
+    steps:
+      # Клонируем репозиторий
+      - uses: actions/checkout@v3
+      # Устанавливаем Node.js
+      - uses: actions/setup-node@v3
+      - run: install build
+      - run: npm run build
+      # Ставим зависимости
+      - run: npm install
+      # Запускаем линтер
+      - run: npx eslint .
+      # Запускаем тесты
+      - name: run tests
+        run: npm test # name и run относятся к одной задаче, поэтому дефис 
