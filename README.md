@@ -35,6 +35,5 @@ This repository is created and maintained by the team and the community of Hexle
 
 See most active contributors on [hexlet-friends](https://friends.hexlet.io/).
 
-# add badge
-Курс непрерывная интеграция
+# add badge Курс непрерывная интеграция
 [![Actions Status](https://github.com/xAleksandrGorbunovx/module-hexlet-continuous-integration/actions/workflows/my-first-yml.yml/badge.svg)](https://github.com/xAleksandrGorbunovx/module-hexlet-continuous-integration/actions)
